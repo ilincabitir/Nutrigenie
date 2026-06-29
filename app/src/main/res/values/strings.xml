@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="login_redirect"> <u>Already have an account? Log In</u></string>
+    <string name="signup_redirect"> <u>Not register yet? Sign up</u></string>
+</resources>

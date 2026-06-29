@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fridgeItemCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/foodItemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apple"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/foodItemCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fruit"
+                android:textSize="14sp"
+                android:textColor="#333333" />
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/traitsContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp">
+
+                <TextView
+                    android:id="@+id/badgeSalt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Salt"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:background="#fde2e4"
+                    android:paddingHorizontal="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/badgeSugar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sugar"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:background="#fad2e1"
+                    android:paddingHorizontal="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/badgeFat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fat"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:background="#e2ece9"
+                    android:paddingHorizontal="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/badgeGluten"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gluten"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:background="#f0efeb"
+                    android:paddingHorizontal="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/badgeLactose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lactose"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:background="#dfe7fd"
+                    android:paddingHorizontal="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:visibility="gone"/>
+            </com.google.android.material.chip.ChipGroup>
+        </LinearLayout>
+
+        <!-- Quantity Controls -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="#80FFFFFF"
+            android:paddingHorizontal="4dp"
+            android:layout_marginEnd="8dp">
+
+            <ImageButton
+                android:id="@+id/minusBtn"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_minus"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:tint="@color/black" />
+
+            <TextView
+                android:id="@+id/quantityText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:paddingHorizontal="8dp"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/plusBtn"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_plus"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:tint="@color/black" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/deleteBtn"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_delete"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="@color/black" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
