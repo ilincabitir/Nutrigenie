@@ -26,13 +26,36 @@ This is a mobile application project which helps user create balanced meals from
 ## Applicaion Screenshots
 
 
-&nbsp;&nbsp;&nbsp;Log In Screen      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Home Screen   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Fridge Screen    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Account Screen  
+Log In Screen
 
 
 <img width="197" height="434" alt="Screenshot 2026-06-29 211139" src="https://github.com/user-attachments/assets/3f6d5fd5-3042-4395-8855-549a696cc151" />
-&nbsp;&nbsp;&nbsp;&nbsp;<img width="194" height="435" alt="Screenshot 2026-06-29 211231" src="https://github.com/user-attachments/assets/7c37ea05-d42b-4184-b47c-15e29af425b2" />
-&nbsp;&nbsp;&nbsp;&nbsp;<img width="194" height="434" alt="Screenshot 2026-06-29 211318" src="https://github.com/user-attachments/assets/4ca22ce1-beba-44d0-ab47-3951315c1602" />
-&nbsp;&nbsp;&nbsp;&nbsp;<img width="194" height="436" alt="Screenshot 2026-06-29 211348" src="https://github.com/user-attachments/assets/e9cab106-79ba-4c63-90e8-2410b6d5ecb3" />
+
+<br>
+Home Screen 
+
+<br>
+<img width="194" height="435" alt="Screenshot 2026-06-29 211231" src="https://github.com/user-attachments/assets/7c37ea05-d42b-4184-b47c-15e29af425b2" />
+
+<br>
+
+
+Fridge Screen 
+
+
+<img width="194" height="434" alt="Screenshot 2026-06-29 211318" src="https://github.com/user-attachments/assets/4ca22ce1-beba-44d0-ab47-3951315c1602" />
+
+
+<br>
+
+Account Screen  
+
+<img width="194" height="436" alt="Screenshot 2026-06-29 211348" src="https://github.com/user-attachments/assets/e9cab106-79ba-4c63-90e8-2410b6d5ecb3" />
+
+
+
+
+
 
 
 <br>
